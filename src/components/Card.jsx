@@ -1,7 +1,7 @@
 import React from "react";
 import style from "../styles/Card.module.css";
 import chatSvg from "../../public/chat.svg";
-function Card({ nombreProducto = "", descuento = 0, precio = 0 }) {
+function Card({ nombreProducto = "", descuento = 0, precio = 0, idUser = 0 }) {
   return (
     <article className={style.container}>
       <figure>
