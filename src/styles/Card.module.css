@@ -1,0 +1,66 @@
+.container {
+  background-color: #504545;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 28%;
+  height: 10%;
+  border-radius: 10px;
+}
+
+.container figure {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("https://arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/FJKXKQKMMJBV7KQ7XQ3YNFO7LU.jpg");
+  background-blend-mode: multiply;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.container figure img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.containerData {
+  color: #000;
+  font-weight: bolder;
+  width: 96%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2%;
+}
+
+.containerData div {
+  display: flex;
+  flex-direction: column;
+}
+
+.containerData div span:first-child {
+  color: rgb(124, 11, 11);
+}
+
+.containerData button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  text-align: center;
+  width: 15%;
+  height: 3em;
+  transition: 1s ease-in-out;
+}
+
+.containerData button:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+
+.containerData button img {
+  width: 60%;
+}
